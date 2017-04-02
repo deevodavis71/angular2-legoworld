@@ -3,3 +3,11 @@
     display: block;
     padding-top: 50px;
 }
+
+:host .copyright {
+    color: #555;
+}
+
+:host div {
+    //border: 1px solid red;
+}
