@@ -27,7 +27,7 @@ export class AppComponent implements AfterViewInit {
   ngAfterViewInit () {
 
     jQuery('.navbar-collapse a').click(function() {
-        jQuery(".navbar-collapse").collapse('hide');
+        jQuery('.navbar-collapse').collapse('hide');
     });
 
   }
